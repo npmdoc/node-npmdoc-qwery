@@ -1,9 +1,14 @@
-# api documentation for  [qwery (v4.0.0)](https://github.com/ded/qwery)  [![npm package](https://img.shields.io/npm/v/npmdoc-qwery.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-qwery) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-qwery.svg)](https://travis-ci.org/npmdoc/node-npmdoc-qwery)
+# npmdoc-qwery
+
+#### api documentation for  [qwery (v4.0.0)](https://github.com/ded/qwery)  [![npm package](https://img.shields.io/npm/v/npmdoc-qwery.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-qwery) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-qwery.svg)](https://travis-ci.org/npmdoc/node-npmdoc-qwery)
+
 #### blazing fast CSS3 query selector engine
 
-[![NPM](https://nodei.co/npm/qwery.png?downloads=true)](https://www.npmjs.com/package/qwery)
+[![NPM](https://nodei.co/npm/qwery.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/qwery)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-qwery/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-qwery_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-qwery/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-qwery/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-qwery/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-qwery/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-qwery/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-qwery/build/screenCapture.npmPackageListing.svg)
 
@@ -16,80 +21,36 @@
 ```json
 
 {
-    "author": {
-        "name": "Dustin Diaz",
-        "email": "dustin@dustindiaz.com",
-        "url": "http://dustindiaz.com"
-    },
-    "bugs": {
-        "url": "https://github.com/ded/qwery/issues"
-    },
-    "contributors": [
-        {
-            "name": "Rod Vagg",
-            "url": "https://github.com/rvagg"
-        },
-        {
-            "name": "Andrew McCollum",
-            "url": "https://github.com/amccollum"
-        }
-    ],
-    "dependencies": {},
+    "name": "qwery",
     "description": "blazing fast CSS3 query selector engine",
-    "devDependencies": {
-        "phantomjs": "0.2.3",
-        "serve": "*",
-        "sink-test": ">= 1.0.1",
-        "smoosh": "0.4.0"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "7d21e3b4f7e9eed7e68728f4dab4de8b7303febe",
-        "tarball": "https://registry.npmjs.org/qwery/-/qwery-4.0.0.tgz"
-    },
-    "ender": "./src/ender.js",
+    "version": "4.0.0",
     "homepage": "https://github.com/ded/qwery",
+    "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
+    "contributors": [
+        "Rod Vagg (https://github.com/rvagg)",
+        "Andrew McCollum (https://github.com/amccollum)"
+    ],
+    "main": "./qwery.js",
     "keywords": [
         "ender",
         "query",
         "css",
         "selector engine"
     ],
-    "main": "./qwery.js",
-    "maintainers": [
-        {
-            "name": "ded",
-            "email": "polvero@gmail.com"
-        },
-        {
-            "name": "fat",
-            "email": "jacobthornton@gmail.com"
-        },
-        {
-            "name": "ds",
-            "email": "dustin@dustinsenos.com"
-        }
-    ],
-    "name": "qwery",
-    "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
+    "ender": "./src/ender.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ded/qwery.git"
+        "url": "https://github.com/ded/qwery.git"
     },
-    "version": "4.0.0"
+    "devDependencies": {
+        "sink-test": ">= 1.0.1",
+        "serve": "*",
+        "smoosh": "0.4.0",
+        "phantomjs": "0.2.3"
+    },
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module qwery](#apidoc.module.qwery)
-
-
-
-# <a name="apidoc.module.qwery"></a>[module qwery](#apidoc.module.qwery)
 
 
 
